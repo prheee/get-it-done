@@ -1,0 +1,94 @@
+body {
+  background-color: #85C1E9;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;;
+  text-align: center;
+  margin: auto
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #CD5C5C;
+  font-weight: 500;
+}
+
+.main-input {
+  margin: 3px;
+}
+
+.todo-header {
+  display: grid;
+  grid-template-columns: 0.25fr 1.2fr 1.8fr 0.5fr 0.5fr;
+  max-width: 500px;
+  color: rgb(4, 78, 78);
+}
+
+.todo-row {
+  display: grid;
+  grid-template-columns: 0.25fr 1.2fr 1.8fr 0.5fr 0.5fr;
+  max-width: 600px;
+  font-weight: 400;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.sort-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0.5em 0em;
+}
+
+.individual-sort {
+  width: 20%;
+  margin: 0.2em;
+  font-size: 8px;
+}
+
+.due-date-header {
+  border: solid 1px #EBF5FB;
+  background-color: #2F66A9;
+  color: white;
+}
+
+.to-do-header {
+  border: solid 1px #EBF5FB;
+  background-color: #2F66A9;
+  color: white;
+}
+
+.todo-content {
+  background-color: #A3E4D7;
+  padding: 5px;
+  min-height: 50px;
+  max-height: 100px;
+  overflow: scroll;
+}
+
+.form-message {
+  color: red;
+  font-size: 8px;
+}
+
+.form-error {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* .todo-container {
+  max-width: 500px;
+  min-height: 50px;
+  max-height: 70px;
+} */
