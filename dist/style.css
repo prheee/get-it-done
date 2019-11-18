@@ -69,9 +69,9 @@ h2 {
 .todo-content {
   background-color: #A3E4D7;
   padding: 5px;
-  min-height: 50px;
+  /* min-height: 50px;
   max-height: 100px;
-  overflow: scroll;
+  overflow: scroll; */
 }
 
 .form-message {
